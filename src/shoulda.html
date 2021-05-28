@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Shoulda Coulda</title>
+		<meta name="description" content="A simple grid layout with an initial fullscreen intro" />
+		<meta name="keywords" content="fullscreen image, grid layout, flexbox grid, transition" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/demo1/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo1/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo1/layout-simple.css" />
+		<link rel="stylesheet" type="text/css" href="fonts/codropsicons/stylesheet.css" />
+		<link href="http://www.jqueryscript.net/css/demo1/jquerysctipttop.css" rel="stylesheet" type="text/css">
+		<link href="css/demo1/pagecrossfade.css" rel="stylesheet" type="text/css">
+
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://use.typekit.net/vts4lgd.css">
+	<link rel="stylesheet" type="text/css" href="css/demo1/base.css" />
+	<script>
+	document.documentElement.className = "js";
+	var supportsCssVars = function() { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
+	supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+	</script>
+
+
+
+		<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div id="container" class="container">
+
+			<header class="intro">
+				<img class="intro__image" src="img/demo1/item20.jpg" alt="Iceland galcier"/>
+				<div class='intro__90'>
+					<h1 class="intro__90__title">Ross Allen</h1>
+					<div class='menu__container'>
+						<ul class='menu'>
+							<li><a href='#'><span>Homesite</span><span class='number'>(a)</span></a></li>
+							<li><a href='#'><span>About Ross Allen Film</span><span class='number'>(b)</span></a></li>
+							<li><a href='#'><span>Contact</span><span class='number'>(c)</span></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class='gif-container'>
+					<div class='gif-header'>
+						<div class='project-title'>
+							<h4>Music Video</h4>
+							<h2>Shoulda Coulda</h2>
+						</div>
+						<div class='back'>
+							<span><img class="close-img" src="img/demo1/close-2.png"><a href="http://localhost:1234/">Back to list</a></span>
+
+						</div>
+				
+					</div>
+						<a href='second.html'><img class="next-img" src="img/demo1/arrow-right.png"></a>
+					<div class='img-frame'>
+						<img src="img/demo1/last.gif" alt="">
+					</div>
+					<div class='gif-footer'>
+						<div class='project-content'>
+							<h2 class='serif-title'>Chill Winston</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id tellus ac dolor hendrerit blandit. Etiam elementum purus non tortor rutrum maximus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id tellus ac dolor hendrerit blandit. Etiam elementum purus non tortor rutrum maximus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur nibh urna, sollicitudin ac fringilla vel, volutpat quis dolor. Nulla euismod ligula quam, id hendrerit ante tincidunt id. Morbi dictum nibh ut porta imperdiet. Donec volutpat odio vitae augue maximus laoreet. Suspendisse potenti.</p>
+						</div>
+						<div class='watch'>
+							<span class="video-link3"><div class="animate-flicker" id="circle"></div><a href="#">watch this clip</a></span>
+						</div>
+					</div>
+				</div>
+				<div class="intro__content">
+
+						<span class='more-stuff'>Watch more stuff</span>
+						<button class="trigger">
+							<svg width="100%" height="100%" viewBox="0 0 60 60" preserveAspectRatio="none">
+								<g class="icon icon--grid">
+									<rect x="32.5" y="5.5" width="22" height="22"/>
+									<rect x="4.5" y="5.5" width="22" height="22"/>
+									<rect x="32.5" y="33.5" width="22" height="22"/>
+									<rect x="4.5" y="33.5" width="22" height="22"/>
+								</g>
+								<g class="icon icon--cross">
+									<line x1="4.5" y1="55.5" x2="54.953" y2="5.046"/>
+									<line x1="54.953" y1="55.5" x2="4.5" y2="5.047"/>
+								</g>
+							</svg>
+							<span>View content</span>
+						</button>
+					</div>
+				</div><!-- /intro__content -->
+			</header><!-- /intro -->
+
+			<section class="related-2">
+				<a href="second.html" class="item">
+					<img class="item__image" src="img/demo1/2.jpg" alt="item02"/>
+				</a>
+				<a class="item">
+					<img class="item__image" src="img/demo1/6.jpg" alt="item02"/>
+				</a>
+				<a href="second.html" class="item">
+					<img class="item__image" src="img/demo1/7.jpg" alt="item02"/>
+				</a>
+				<a class="item">
+					<img class="item__image" src="img/demo1/harlequin1.jpg" alt="item02"/>
+				</a>
+			</section>
+			<section class="related">
+				<p>If you enjoyed this demo you might also like:</p>
+				<a href="http://tympanus.net/Development/DraggableDualViewSlideshow/">Draggable Dual-View Slideshow</a><br />
+				<a href="http://tympanus.net/Tutorials/PagePreloadingEffect/">Page Preloading Effect</a>
+			</section>
+		</div><!-- /container -->
+		<script>
+		</script>
+		<script src="js/demo1/classie.js"></script>
+		<script>
+			(function() {
+				var container = document.getElementById( 'container' ),
+					trigger = container.querySelector( 'button.trigger' );
+
+				function toggleContent() {
+					if( classie.has( container, 'container--open' ) ) {
+						classie.remove( container, 'container--open' );
+						classie.remove( trigger, 'trigger--active' );
+						window.addEventListener( 'scroll', noscroll );
+					}
+					else {
+						classie.add( container, 'container--open' );
+						classie.add( trigger, 'trigger--active' );
+						window.removeEventListener( 'scroll', noscroll );
+					}
+				}
+
+				function noscroll() {
+					window.scrollTo( 0, 0 );
+				}
+
+				// reset scrolling position
+				document.body.scrollTop = document.documentElement.scrollTop = 0;
+
+				// disable scrolling
+				window.addEventListener( 'scroll', noscroll );
+
+				trigger.addEventListener( 'click', toggleContent );
+
+				// For Demo purposes only (prevent jump on click)
+				[].slice.call( document.querySelectorAll('.items-wrap a') ).forEach( function(el) { el.onclick = function() { return false; } } );
+			})();
+		</script>
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/demo1/pagecrossfade.js"></script>
+		<script>
+		$(function() {
+		  $('body').pageCrossFade({
+		    duration: 900, 
+		    easing: 'easeInOutQuad',
+		    links: 'internal'
+		  });
+		});
+		</script>
+		<script src="javascripts/scale.fix.js"></script>
+		<script src="javascripts/videoLightning.js"></script>
+		<script src="javascripts/jqvl-page.js"></script>
+			<script src="js/demo1/index.js"></script>
+		<script>
+		  videoLightning({
+		    elements: [
+		      {
+		        ".video-link": {
+		          autoplay: 1,
+		          easeOut: 1000,
+		          bdColor: "#ddd",
+		          bdOpacity: 0.6,
+		          glow: 20,
+		          glowColor: "#000"
+		        }
+		      },
+		      {
+		        ".video-link2": {
+		          autoplay: 1,
+		          bdColor: "#7FFF00",
+		          bdOpacity: 0.7,
+		          glow: 150,
+		          glowColor: "#fff",
+		          xColor: "#7FFF00",
+		          color: "#fff"
+		        }
+		      },
+		      {
+		        "#bare-iframe-link": {
+		          id: 'f-images/JqueryVideoLightningIconPurple144.png',
+		          frameColor: '#555',
+		          frameBorder: '3px solid #3A0372',
+		          bdOpacity: 0.9,
+		          glow: 0,
+		          xBgColor: '#3A0372',
+		          xColor: '#f5f5f5',
+		          xBorder: '3px solid #555'
+		        }
+		      }
+		    ]
+		  });
+		  $(function () {
+		      $(".video-link3").jqueryVideoLightning({
+		          id: "Nl78ntPC3sk",
+		          autoplay: 1,
+		          controls: 1,
+		          bdColor: "#000",
+		          bdOpacity: 1,
+		          xBgColor: '#000',
+		          xColor: '#000',
+		          glow: 0,
+		          showinfo: 0,
+		          fadeIn: 800,
+		          frameColor: '#000'
+		      });
+		  });
+		  $(function () {
+		      $(".video-link4").jqueryVideoLightning({
+		          id: 'y-26mMPKS83c4',
+		          autoplay: 1,
+		          startTime: 62,
+		          fadeIn: 0,
+		          bdColor: '#f5f5f5',
+		          bdOpacity: 1,
+		          glow: 20,
+		          glowColor: '#000',
+		          controls: 0,
+		          showinfo: 0,
+		          color: "white"
+		      });
+		  });
+		  $(function () {
+		      $(".video-link5").jqueryVideoLightning({
+		          autoplay: 1,
+		          playlist: "WkgWvaFrJv8,NCsihs3A_hM",
+		          bdColor: "#3A0372",
+		          bdOpacity: 0.8,
+		          glow: 50,
+		          glowColor: "#F1D6F5",
+		          color: "#fff",
+		          cover: 1
+		      });
+		  });
+		  $(function () {
+		      $(".video-link6").jqueryVideoLightning({
+		          autoplay: 1,
+		      	playlist: "Nl78ntPC3sk",
+		          controls: 0,
+		          width: "480px",
+		          glow: 1,
+		          height: "320px",
+		          popover: 0,
+		          peek: 0
+		      });
+		  });
+		</script>
+	</body>
+</html>
