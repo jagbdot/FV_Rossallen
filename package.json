@@ -7,7 +7,8 @@
     "start": "parcel src/index.html --open",
     "clean": "rm -rf dist/*",
     "build:parcel": "parcel build src/index.html --no-content-hash --no-minify --no-source-maps --public-url ./",
-    "build": "npm run clean && npm run build:parcel"
+    "build": "npm run clean && npm run build:parcel",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -16,11 +17,12 @@
   "keywords": [],
   "author": "Codrops",
   "license": "MIT",
-  "homepage": "[HOMEPAGE]",
+  "homepage": "https://jagbdot.github.io/FV_Rossallen",
   "bugs": {
     "url": "https://github.com/codrops/RapidImageHoverMenuEffects/issues"
   },
   "dependencies": {
+    "gh-pages": "^3.2.0",
     "gsap": "^3.3.4",
     "imagesloaded": "^4.1.4",
     "locomotive-scroll": "^3.5.4",
