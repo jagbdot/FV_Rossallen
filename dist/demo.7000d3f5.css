@@ -3,11 +3,11 @@
 	font-weight: normal;
 	font-style: normal;
 	font-family: 'codropsicons';
-	src:url('/codropsicons.be17baff.eot');
-	src:url('/codropsicons.be17baff.eot?#iefix') format('embedded-opentype'),
-		url('/codropsicons.ef31366b.woff') format('woff'),
-		url('/codropsicons.646b58a8.ttf') format('truetype'),
-		url('/codropsicons.e8bb89cc.svg#codropsicons') format('svg');
+	src:url('codropsicons.be17baff.eot');
+	src:url('codropsicons.be17baff.eot?#iefix') format('embedded-opentype'),
+		url('codropsicons.ef31366b.woff') format('woff'),
+		url('codropsicons.646b58a8.ttf') format('truetype'),
+		url('codropsicons.e8bb89cc.svg#codropsicons') format('svg');
 }
 
 *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
@@ -116,6 +116,3 @@ a:focus {
 		margin-bottom: 1.5em;
 	}
 }
-
-
-/*# sourceMappingURL=/demo.7000d3f5.css.map */

@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../node_modules/gsap/gsap-core.js":[function(require,module,exports) {
+})({"TNS6":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -4039,7 +4039,7 @@ exports.Power3 = Power3;
 exports.Power2 = Power2;
 exports.Power1 = Power1;
 exports.Power0 = Power0;
-},{}],"../node_modules/gsap/CSSPlugin.js":[function(require,module,exports) {
+},{}],"bp4Z":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -5458,7 +5458,7 @@ _gsapCore.gsap.utils.checkPrefix = _checkPropPrefix;
 });
 
 _gsapCore.gsap.registerPlugin(CSSPlugin);
-},{"./gsap-core.js":"../node_modules/gsap/gsap-core.js"}],"../node_modules/gsap/index.js":[function(require,module,exports) {
+},{"./gsap-core.js":"TNS6"}],"TpQl":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -5608,7 +5608,7 @@ TweenMaxWithCSS = gsapWithCSS.core.Tween;
 
 exports.TweenMax = TweenMaxWithCSS;
 exports.default = exports.gsap = gsapWithCSS;
-},{"./gsap-core.js":"../node_modules/gsap/gsap-core.js","./CSSPlugin.js":"../node_modules/gsap/CSSPlugin.js"}],"js/utils.js":[function(require,module,exports) {
+},{"./gsap-core.js":"TNS6","./CSSPlugin.js":"bp4Z"}],"MgTz":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -5664,7 +5664,7 @@ var getRandomFloat = function getRandomFloat(min, max) {
 };
 
 exports.getRandomFloat = getRandomFloat;
-},{}],"js/cursor.js":[function(require,module,exports) {
+},{}],"LMRJ":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -5757,7 +5757,7 @@ var Cursor = /*#__PURE__*/function () {
 }();
 
 exports.default = Cursor;
-},{"gsap":"../node_modules/gsap/index.js","./utils":"js/utils.js"}],"../node_modules/ev-emitter/ev-emitter.js":[function(require,module,exports) {
+},{"gsap":"TpQl","./utils":"MgTz"}],"BQvw":[function(require,module,exports) {
 var define;
 var global = arguments[3];
 /**
@@ -5873,7 +5873,7 @@ return EvEmitter;
 
 }));
 
-},{}],"../node_modules/imagesloaded/imagesloaded.js":[function(require,module,exports) {
+},{}],"lc7f":[function(require,module,exports) {
 var define;
 /*!
  * imagesLoaded v4.1.4
@@ -6253,7 +6253,7 @@ return ImagesLoaded;
 
 });
 
-},{"ev-emitter":"../node_modules/ev-emitter/ev-emitter.js"}],"js/preloader.js":[function(require,module,exports) {
+},{"ev-emitter":"BQvw"}],"BeZ8":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -6300,7 +6300,7 @@ var preloader = function preloader(selector) {
 };
 
 exports.preloader = preloader;
-},{"imagesloaded":"../node_modules/imagesloaded/imagesloaded.js"}],"../node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js":[function(require,module,exports) {
+},{"imagesloaded":"lc7f"}],"ez7q":[function(require,module,exports) {
 var global = arguments[3];
 "use strict";
 
@@ -8885,47 +8885,47 @@ var _default$3 = /*#__PURE__*/function () {
 
 var _default2 = _default$3;
 exports.default = _default2;
-},{}],"img/demo2/1.jpg":[function(require,module,exports) {
-module.exports = "/1.b2dd7476.jpg";
-},{}],"img/demo2/10.jpg":[function(require,module,exports) {
-module.exports = "/10.4f66b9bf.jpg";
-},{}],"img/demo2/11.jpg":[function(require,module,exports) {
-module.exports = "/11.bc61a1e3.jpg";
-},{}],"img/demo2/12.jpg":[function(require,module,exports) {
-module.exports = "/12.d01438d5.jpg";
-},{}],"img/demo2/13.jpg":[function(require,module,exports) {
-module.exports = "/13.a8b9e252.jpg";
-},{}],"img/demo2/14.jpg":[function(require,module,exports) {
-module.exports = "/14.e53accbf.jpg";
-},{}],"img/demo2/15.jpg":[function(require,module,exports) {
-module.exports = "/15.cfb90561.jpg";
-},{}],"img/demo2/16.jpg":[function(require,module,exports) {
-module.exports = "/16.bf2e6aed.jpg";
-},{}],"img/demo2/17.jpg":[function(require,module,exports) {
-module.exports = "/17.79dee7e7.jpg";
-},{}],"img/demo2/18.jpg":[function(require,module,exports) {
-module.exports = "/18.8ad6a6a5.jpg";
-},{}],"img/demo2/19.jpg":[function(require,module,exports) {
-module.exports = "/19.70099d5f.jpg";
-},{}],"img/demo2/2.jpg":[function(require,module,exports) {
-module.exports = "/2.c629256c.jpg";
-},{}],"img/demo2/20.jpg":[function(require,module,exports) {
-module.exports = "/20.79785ea9.jpg";
-},{}],"img/demo2/3.jpg":[function(require,module,exports) {
-module.exports = "/3.449799ca.jpg";
-},{}],"img/demo2/4.jpg":[function(require,module,exports) {
-module.exports = "/4.00c00e57.jpg";
-},{}],"img/demo2/5.jpg":[function(require,module,exports) {
-module.exports = "/5.208189fa.jpg";
-},{}],"img/demo2/6.jpg":[function(require,module,exports) {
-module.exports = "/6.3ade7d4e.jpg";
-},{}],"img/demo2/7.jpg":[function(require,module,exports) {
-module.exports = "/7.0a1756e3.jpg";
-},{}],"img/demo2/8.jpg":[function(require,module,exports) {
-module.exports = "/8.2c69e487.jpg";
-},{}],"img/demo2/9.jpg":[function(require,module,exports) {
-module.exports = "/9.022cbb30.jpg";
-},{}],"img/demo2/*.jpg":[function(require,module,exports) {
+},{}],"p6D2":[function(require,module,exports) {
+module.exports = "17.79dee7e7.jpg";
+},{}],"o9p2":[function(require,module,exports) {
+module.exports = "1.b2dd7476.jpg";
+},{}],"HxRI":[function(require,module,exports) {
+module.exports = "20.79785ea9.jpg";
+},{}],"VDAy":[function(require,module,exports) {
+module.exports = "13.a8b9e252.jpg";
+},{}],"eN50":[function(require,module,exports) {
+module.exports = "10.4f66b9bf.jpg";
+},{}],"CVx1":[function(require,module,exports) {
+module.exports = "11.bc61a1e3.jpg";
+},{}],"rnjB":[function(require,module,exports) {
+module.exports = "2.c629256c.jpg";
+},{}],"Bp3Y":[function(require,module,exports) {
+module.exports = "3.449799ca.jpg";
+},{}],"mglv":[function(require,module,exports) {
+module.exports = "4.00c00e57.jpg";
+},{}],"uewg":[function(require,module,exports) {
+module.exports = "14.e53accbf.jpg";
+},{}],"TAhK":[function(require,module,exports) {
+module.exports = "12.d01438d5.jpg";
+},{}],"MsaK":[function(require,module,exports) {
+module.exports = "15.cfb90561.jpg";
+},{}],"PiTO":[function(require,module,exports) {
+module.exports = "19.70099d5f.jpg";
+},{}],"VAwC":[function(require,module,exports) {
+module.exports = "16.bf2e6aed.jpg";
+},{}],"uaXx":[function(require,module,exports) {
+module.exports = "18.8ad6a6a5.jpg";
+},{}],"es9O":[function(require,module,exports) {
+module.exports = "5.208189fa.jpg";
+},{}],"HY6r":[function(require,module,exports) {
+module.exports = "7.0a1756e3.jpg";
+},{}],"Ve5k":[function(require,module,exports) {
+module.exports = "6.3ade7d4e.jpg";
+},{}],"rzoB":[function(require,module,exports) {
+module.exports = "8.2c69e487.jpg";
+},{}],"zRBQ":[function(require,module,exports) {
+module.exports = "9.022cbb30.jpg";
+},{}],"lwGi":[function(require,module,exports) {
 module.exports = {
   "1": require("./1.jpg"),
   "2": require("./2.jpg"),
@@ -8948,7 +8948,7 @@ module.exports = {
   "19": require("./19.jpg"),
   "20": require("./20.jpg")
 };
-},{"./1.jpg":"img/demo2/1.jpg","./10.jpg":"img/demo2/10.jpg","./11.jpg":"img/demo2/11.jpg","./12.jpg":"img/demo2/12.jpg","./13.jpg":"img/demo2/13.jpg","./14.jpg":"img/demo2/14.jpg","./15.jpg":"img/demo2/15.jpg","./16.jpg":"img/demo2/16.jpg","./17.jpg":"img/demo2/17.jpg","./18.jpg":"img/demo2/18.jpg","./19.jpg":"img/demo2/19.jpg","./2.jpg":"img/demo2/2.jpg","./20.jpg":"img/demo2/20.jpg","./3.jpg":"img/demo2/3.jpg","./4.jpg":"img/demo2/4.jpg","./5.jpg":"img/demo2/5.jpg","./6.jpg":"img/demo2/6.jpg","./7.jpg":"img/demo2/7.jpg","./8.jpg":"img/demo2/8.jpg","./9.jpg":"img/demo2/9.jpg"}],"js/demo2/menuItem.js":[function(require,module,exports) {
+},{"./17.jpg":"p6D2","./1.jpg":"o9p2","./20.jpg":"HxRI","./13.jpg":"VDAy","./10.jpg":"eN50","./11.jpg":"CVx1","./2.jpg":"rnjB","./3.jpg":"Bp3Y","./4.jpg":"mglv","./14.jpg":"uewg","./12.jpg":"TAhK","./15.jpg":"MsaK","./19.jpg":"PiTO","./16.jpg":"VAwC","./18.jpg":"uaXx","./5.jpg":"es9O","./7.jpg":"HY6r","./6.jpg":"Ve5k","./8.jpg":"rzoB","./9.jpg":"zRBQ"}],"RTMc":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9206,7 +9206,7 @@ var MenuItem = /*#__PURE__*/function () {
 }();
 
 exports.default = MenuItem;
-},{"gsap":"../node_modules/gsap/index.js","../utils":"js/utils.js","../../img/demo2/*.jpg":"img/demo2/*.jpg"}],"js/demo2/menu.js":[function(require,module,exports) {
+},{"gsap":"TpQl","../utils":"MgTz","../../img/demo2/*.jpg":"lwGi"}],"YqVV":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9316,7 +9316,7 @@ var Menu = /*#__PURE__*/function () {
 }();
 
 exports.default = Menu;
-},{"gsap":"../node_modules/gsap/index.js","./menuItem":"js/demo2/menuItem.js"}],"js/demo2/index.js":[function(require,module,exports) {
+},{"gsap":"TpQl","./menuItem":"RTMc"}],"ZSzT":[function(require,module,exports) {
 "use strict";
 
 var _cursor = _interopRequireDefault(require("../cursor"));
@@ -9343,209 +9343,4 @@ var menuEl = document.querySelector('.menu'); // preload the images set as data 
 
   new _menu.default(menuEl);
 });
-},{"../cursor":"js/cursor.js","../preloader":"js/preloader.js","locomotive-scroll":"../node_modules/locomotive-scroll/dist/locomotive-scroll.esm.js","./menu":"js/demo2/menu.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
-var global = arguments[3];
-var OVERLAY_ID = '__parcel__error__overlay__';
-var OldModule = module.bundle.Module;
-
-function Module(moduleName) {
-  OldModule.call(this, moduleName);
-  this.hot = {
-    data: module.bundle.hotData,
-    _acceptCallbacks: [],
-    _disposeCallbacks: [],
-    accept: function (fn) {
-      this._acceptCallbacks.push(fn || function () {});
-    },
-    dispose: function (fn) {
-      this._disposeCallbacks.push(fn);
-    }
-  };
-  module.bundle.hotData = null;
-}
-
-module.bundle.Module = Module;
-var checkedAssets, assetsToAccept;
-var parent = module.bundle.parent;
-
-if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
-  var hostname = "" || location.hostname;
-  var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61961" + '/');
-
-  ws.onmessage = function (event) {
-    checkedAssets = {};
-    assetsToAccept = [];
-    var data = JSON.parse(event.data);
-
-    if (data.type === 'update') {
-      var handled = false;
-      data.assets.forEach(function (asset) {
-        if (!asset.isNew) {
-          var didAccept = hmrAcceptCheck(global.parcelRequire, asset.id);
-
-          if (didAccept) {
-            handled = true;
-          }
-        }
-      }); // Enable HMR for CSS by default.
-
-      handled = handled || data.assets.every(function (asset) {
-        return asset.type === 'css' && asset.generated.js;
-      });
-
-      if (handled) {
-        console.clear();
-        data.assets.forEach(function (asset) {
-          hmrApply(global.parcelRequire, asset);
-        });
-        assetsToAccept.forEach(function (v) {
-          hmrAcceptRun(v[0], v[1]);
-        });
-      } else if (location.reload) {
-        // `location` global exists in a web worker context but lacks `.reload()` function.
-        location.reload();
-      }
-    }
-
-    if (data.type === 'reload') {
-      ws.close();
-
-      ws.onclose = function () {
-        location.reload();
-      };
-    }
-
-    if (data.type === 'error-resolved') {
-      console.log('[parcel] ✨ Error resolved');
-      removeErrorOverlay();
-    }
-
-    if (data.type === 'error') {
-      console.error('[parcel] 🚨  ' + data.error.message + '\n' + data.error.stack);
-      removeErrorOverlay();
-      var overlay = createErrorOverlay(data);
-      document.body.appendChild(overlay);
-    }
-  };
-}
-
-function removeErrorOverlay() {
-  var overlay = document.getElementById(OVERLAY_ID);
-
-  if (overlay) {
-    overlay.remove();
-  }
-}
-
-function createErrorOverlay(data) {
-  var overlay = document.createElement('div');
-  overlay.id = OVERLAY_ID; // html encode message and stack trace
-
-  var message = document.createElement('div');
-  var stackTrace = document.createElement('pre');
-  message.innerText = data.error.message;
-  stackTrace.innerText = data.error.stack;
-  overlay.innerHTML = '<div style="background: black; font-size: 16px; color: white; position: fixed; height: 100%; width: 100%; top: 0px; left: 0px; padding: 30px; opacity: 0.85; font-family: Menlo, Consolas, monospace; z-index: 9999;">' + '<span style="background: red; padding: 2px 4px; border-radius: 2px;">ERROR</span>' + '<span style="top: 2px; margin-left: 5px; position: relative;">🚨</span>' + '<div style="font-size: 18px; font-weight: bold; margin-top: 20px;">' + message.innerHTML + '</div>' + '<pre>' + stackTrace.innerHTML + '</pre>' + '</div>';
-  return overlay;
-}
-
-function getParents(bundle, id) {
-  var modules = bundle.modules;
-
-  if (!modules) {
-    return [];
-  }
-
-  var parents = [];
-  var k, d, dep;
-
-  for (k in modules) {
-    for (d in modules[k][1]) {
-      dep = modules[k][1][d];
-
-      if (dep === id || Array.isArray(dep) && dep[dep.length - 1] === id) {
-        parents.push(k);
-      }
-    }
-  }
-
-  if (bundle.parent) {
-    parents = parents.concat(getParents(bundle.parent, id));
-  }
-
-  return parents;
-}
-
-function hmrApply(bundle, asset) {
-  var modules = bundle.modules;
-
-  if (!modules) {
-    return;
-  }
-
-  if (modules[asset.id] || !bundle.parent) {
-    var fn = new Function('require', 'module', 'exports', asset.generated.js);
-    asset.isNew = !modules[asset.id];
-    modules[asset.id] = [fn, asset.deps];
-  } else if (bundle.parent) {
-    hmrApply(bundle.parent, asset);
-  }
-}
-
-function hmrAcceptCheck(bundle, id) {
-  var modules = bundle.modules;
-
-  if (!modules) {
-    return;
-  }
-
-  if (!modules[id] && bundle.parent) {
-    return hmrAcceptCheck(bundle.parent, id);
-  }
-
-  if (checkedAssets[id]) {
-    return;
-  }
-
-  checkedAssets[id] = true;
-  var cached = bundle.cache[id];
-  assetsToAccept.push([bundle, id]);
-
-  if (cached && cached.hot && cached.hot._acceptCallbacks.length) {
-    return true;
-  }
-
-  return getParents(global.parcelRequire, id).some(function (id) {
-    return hmrAcceptCheck(global.parcelRequire, id);
-  });
-}
-
-function hmrAcceptRun(bundle, id) {
-  var cached = bundle.cache[id];
-  bundle.hotData = {};
-
-  if (cached) {
-    cached.hot.data = bundle.hotData;
-  }
-
-  if (cached && cached.hot && cached.hot._disposeCallbacks.length) {
-    cached.hot._disposeCallbacks.forEach(function (cb) {
-      cb(bundle.hotData);
-    });
-  }
-
-  delete bundle.cache[id];
-  bundle(id);
-  cached = bundle.cache[id];
-
-  if (cached && cached.hot && cached.hot._acceptCallbacks.length) {
-    cached.hot._acceptCallbacks.forEach(function (cb) {
-      cb();
-    });
-
-    return true;
-  }
-}
-},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/demo2/index.js"], null)
-//# sourceMappingURL=/demo2.44794d1a.js.map
+},{"../cursor":"LMRJ","../preloader":"BeZ8","locomotive-scroll":"ez7q","./menu":"YqVV"}]},{},["ZSzT"], null)
